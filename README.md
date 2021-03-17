@@ -31,9 +31,23 @@ O’Meara et al. Transcriptional Reversion of Cardiac Myocyte Fate During Mammal
 ## Programmer
 ### run_tophat.qsub
 - Dependencies: TOPHAT<br/>
-- 
+- Execution: `qsub run_tophat.qsub`<br/>
+- Outputs: accepted_hits.bam<br/>
+- Create a BAM format contains all of the original reads plus any alignments discovered by TopHat.<br/>
+
+### run_cufflinks.qsub
+- Dependencies: Cufflinks<br/>
+- Execution: `qsub run_cufflinks.qsub`<br/>
+- Outputs: genes.fpkm_tracking<br/>
+- Count how reads map to genomic regions defined by an annotation<br/>
+
+### run_cuffdiff.qsub
+- Dependencies: Cuffdiff<br/>
+- Execution: `qsub run_cuffdiff.qsub`<br/>
+- Outputs: gene_exp.diff<br/>
+- Identify differentially expressed genes.<br/>
 ## Analyst
 ## Biologist
 - Script: `biologist.R`<br/>
 - Output: see project report Figure 7 and 8<br/>
-- 
+- Produce FPKM line graphs and heatmap
