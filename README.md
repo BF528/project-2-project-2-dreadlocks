@@ -34,3 +34,6 @@ O’Meara et al. Transcriptional Reversion of Cardiac Myocyte Fate During Mammal
 - 
 ## Analyst
 ## Biologist
+- Script: `biologist.R`<br/>
+- Output: see project report Figure 7 and 8<br/>
+- 
