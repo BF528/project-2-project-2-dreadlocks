@@ -46,7 +46,12 @@ O’Meara et al. Transcriptional Reversion of Cardiac Myocyte Fate During Mammal
 - Execution: `qsub run_cuffdiff.qsub`<br/>
 - Outputs: gene_exp.diff<br/>
 - Identify differentially expressed genes.<br/>
+
 ## Analyst
+- Script: `Analyst.R`<br/>
+- Output: Two csv files <br/>
+- Containing the up- and down- regulated significant genesFPKM line graphs and heatmap
+
 ## Biologist
 - Script: `biologist.R`<br/>
 - Output: see project report Figure 7 and 8<br/>
